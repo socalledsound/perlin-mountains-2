@@ -97,7 +97,7 @@ const makeMountainRange = () => {
 }
 
 const makeMountainPoints = (j) => {
-    mountainPoints = Array.from({length: 500}, (el, i) => {
+    mountainPoints = Array.from({length: 1000}, (el, i) => {
         //const noiseVal = map(noise())
         const yCenter = canvasHeight/4
         noiseSeed(j)
